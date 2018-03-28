@@ -33,7 +33,7 @@ try:
 		pass
 
 
-	    duration ,= 10000000
+	    duration = 10000000
 	    bytes = random._urandom(20000)
 	    timeout = time.time() + duration
 	    sent = 3000
